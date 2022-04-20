@@ -76,8 +76,6 @@ function App() {
     }
 
     document.addEventListener('keydown', handleKeyDown);
-
-    // Don't forget to clean up
     return function cleanup() {
       document.removeEventListener('keydown', handleKeyDown);
     }

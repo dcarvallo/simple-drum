@@ -25,17 +25,16 @@ body{
 #drum-box{
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 500px;
   height: auto;
   background-color: #909090;
   margin: 0 auto;
   margin-top: 100px;
 }
 #keys-box{
-  width: 50%;
   display: grid;
-  grid-template-columns: 100px 100px 10px;
-  margin: auto;
+  grid-template-columns: 70px 70px 70px;
+  margin: 0 auto;
 }
 
 #options-box{
@@ -45,8 +44,8 @@ body{
 }
 .drum-btn{
   background-color: #efefef;
-  width: 80px;
-  height: 80px;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   margin: 10px;
   justify-content: center;
@@ -86,12 +85,16 @@ body{
 }
 @media screen and (max-width: 650px) {
   .drum-btn {
-    transform: scale(0.7);
+    transform: scale(0.9);
   }
+  
+  #drum-box{
+    width: 300px;
+  }
+
   #keys-box{
-  width: 100%;
   display: grid;
-  grid-template-columns: 70px 70px 10px;
+  grid-template-columns: 70px 70px 70px;
   margin: auto;
 }
 }
