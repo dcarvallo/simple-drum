@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/simple-drum/static/css/main.157a8c92.css",
+    "main.css": "/simple-drum/static/css/main.8ed588c7.css",
     "main.js": "/simple-drum/static/js/main.b053798b.js",
     "index.html": "/simple-drum/index.html",
-    "main.157a8c92.css.map": "/simple-drum/static/css/main.157a8c92.css.map",
+    "main.8ed588c7.css.map": "/simple-drum/static/css/main.8ed588c7.css.map",
     "main.b053798b.js.map": "/simple-drum/static/js/main.b053798b.js.map"
   },
   "entrypoints": [
-    "static/css/main.157a8c92.css",
+    "static/css/main.8ed588c7.css",
     "static/js/main.b053798b.js"
   ]
 }
